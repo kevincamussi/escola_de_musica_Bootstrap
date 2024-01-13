@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #2C5C81;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #2C5C81;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-aulas .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #50D8EB;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#aulas {
+    background-color:#92ccf8 ;
+}
+
+#sobre{
+    background-color: #50D8EB;
+}
+
+.text-colored {
+    color: #2C5C81;
+}
+
+.nav-aulas .nav-link.active,
+#fale-conosco button {
+    background-color: #2C5C81;
+    color: #fff;
+}
+
+.nav-aulas .nav-link:hover {
+    color: #2C5C81;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    background-color: #fff;
+}
+
+@media (max-width:767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+@media (min-width:767px) {
+    .carousel-item img {
+        height: 800px;
+    }
+    .tab-content img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
